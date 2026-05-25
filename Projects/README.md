@@ -1,6 +1,6 @@
+# Frontend Simplified Projects 🚀
 
-# Welcome to my Frontend Simplified Projects monorepo
+Welcome to my frontend projects monorepo! This repository holds real-time learning projects that I completed while enrolled in the course.
 
-The contents within are some of the realtime learning projects that I have completed while enrolled.
-
-Please: Feel free leave a comment that may help me better my coding.
+### 💬 Feedback Welcome
+Please feel free to leave a comment or open an issue. Your feedback helps me improve my coding skills!
