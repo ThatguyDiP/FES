@@ -28,8 +28,22 @@ li {
     list-style: none;
 }
 
+.flex {
+    flex: 1;
+}
+
 .flex-1 {
     flex: 1;
+}
+
+.row {
+    width: 100%;
+    max-width: 800%;
+    margin: 0 auto;
+}
+
+.text--purple {
+    color: #6030b1;
 }
 
 /*  NAVIGATION BAR */
@@ -45,7 +59,7 @@ nav {
 }
 
 .nav__link--list {
-    display: flex;  
+    display: flex;
 }
 
 .nav__link--anchor {
@@ -73,9 +87,60 @@ nav {
     font-weight: bold;
 }
 
-/* ABOUT ME */
+/*----- ABOUT ME-----*/
+
 #about-me {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__info--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me__picture--mask {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 8px 16px rgb(0, 0, 1);
+    margin-bottom: 28px;
+}
+
+.about_me__picture {
+    transform: scale(1, 0.5);
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-me__info--title {
+    margin-bottom: 12px;
+}
+
+.about-me__info--para {
+    font-size: 20px;
+    margin-bottom: 28px;
+    max-width: 532px;
+    margin: 0 auto;
+}
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+}
+
+.about-me__img {
+    width: 100%;
 }
