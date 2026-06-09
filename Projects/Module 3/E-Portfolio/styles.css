@@ -43,7 +43,7 @@ li {
 }
 
 .container {
-    padding: 50px 0
+    padding: 50px 0;
 }
 
 .text--purple {
@@ -163,17 +163,20 @@ nav {
 .language__img {
     width: 100%;
     max-width: 100px;
-    transition: all  300ms ease-out;
+    transition: all 300ms ease-out;
 }
 
-.language__img:hover{
+.language:hover .language__img {
     filter: brightness(120%);
     opacity: 1.50;
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .language {
-    width: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .language__img--wrapper {
@@ -187,4 +190,21 @@ nav {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+}
+
+.language__name {
+    position: absolute;
+    transform: scale(0);
+    transition: all 500ms;
+    bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+
+}
+
+.language:hover .language__name {
+    transform: scale(1);
+    opacity: 1.5;
+
 }
